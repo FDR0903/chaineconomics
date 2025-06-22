@@ -150,11 +150,10 @@ $$
 # Issuance, adoption, and staking
 ### Tomorrow: staking demand likely to increase
 - ETH price appreciation
-- Restaking (EigenLayer quickly attracted over $11 billion TVL)
 - US interest rates decline (Fed Fund $5.5\%$ to $4.5\%$ since Sep 2024, projected $3\%$)
 - LST/LRT LST/LRT demand (Liquid staking tokens and liquid restaking tokens)
-    *  lower the barrier of entry to staking and help decentralize the validator set
-
+    * lower the barrier of entry to staking and help decentralize the validator set
+    * EigenLayer quickly attracted over $11 billion TVL
 
 ---
 
@@ -379,7 +378,6 @@ $$
     * L1 becomes a data availability layer $\implies$ competition with DAs <br>
         *MegaETH posts proofs to Ethereum but uses EigenDA to publish data*
 * Policy objectives
-    - maximize user welfare
     - control for decentralization 
 
 ---
@@ -391,10 +389,6 @@ Block time <a name="defi"></a></h1>
 
 ---
 
-# Blockchain protocol
-The blockchain protocol determines the lifecycle of transactions and adds new cost structures
-
----
 
 # Blockchain protocol
 The blockchain protocol determines the lifecycle of transactions and adds new cost structures
@@ -426,35 +420,6 @@ The blockchain protocol determines the lifecycle of transactions and adds new co
 
 ![blockchain1](./images/blockchaincreation3.png){style="transform: translate(20%, 0%); width: 680px"}
 
----
-
-# Blockchain protocol
-
-### Gas fees (EIP-1559)
-* **Base fee**: based on congestion, prerequisite for inclusion
-* **Priority fee**: incentivise validators to prioritise a transaction in the block
-
----
-
-# Blockchain protocol
-
-### Gas fees (EIP-1559)
-* **Base fee**: based on congestion. prerequisite for inclusion
-* **Priority fee**: incentivise validators to prioritise a transaction in the block
-
-![mempools](./images/mempools.jpeg){style="transform: translate(25%, 0%); width: 580px"}
-
----
-
-# Blockchain protocol: consequences
-
-#### Pre-trade transparency
-* Agents observe pending and unconfirmed transactions
-
-<br />
-
-#### Priority gas auctions
-* Agents submit/revise priority fees to compete for queue priority
 
 --- 
 
@@ -467,7 +432,7 @@ The blockchain protocol determines the lifecycle of transactions and adds new co
 ---
 
 # Block time 
-### Research questions: effect of block time on
+### Research question: effect of block time on
 - market efficiency
 - cost of liquidity
 - trading volumes
@@ -482,7 +447,7 @@ The blockchain protocol determines the lifecycle of transactions and adds new co
 * Longer block times incraese adverse selection costs for LPs
    *  defensive reduction of liquidity
 * Longer block times incraese competition for queue priority
-   * increase costs, reduce trading volumes, higher liquidity supply
+   * higher liquidity supply
 * Longer block times give time for noise trading to accumulate
    * higher liquidity supply
 
@@ -506,18 +471,9 @@ The blockchain protocol determines the lifecycle of transactions and adds new co
 
 # Block time 
 ### Some answers
-* Potential block time benefits at the cost of slow Information Dissemination in Blockchains
-    - Information is disseminated at the end of block time, when markets clear  
-    - In contrast to continuous information flow in traditional exchanges  
-    _(Kyle, 1985; Huddart, Hughes, and Levine, 2001)_
-
----
-
-# Block time 
-### Some answers
-* Short block time $\neq$ better DeFi
-* Protocol design focus should be on fair competition
-* Validators would need to perform their duties more frequently, potentially requiring more powerful hardware to keep up with the increased pace. That would particularly impact solo stakers
+* Short block time $\neq$ better DeFi 
+* Protocol design focus should be on fair competition for queue priority
+* Short block time $\equiv$ Validators would need to perform their duties more frequently, potentially requiring more powerful hardware to keep up with the increased pace. That would particularly impact solo stakers
 
 ---
 
